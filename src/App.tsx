@@ -3,7 +3,7 @@ import Button from "./components/Button";
 export default function App() {
   return (
     <div className="h-screen w-screen flex items-center justify-center bg-off-black ">
-      <div className="bg-dark-grey rounded p-10 flex w-[450px] flex-col items-center justify-center">
+      <div className="bg-dark-grey rounded p-10 flex w-[450px] mx-4 flex-col items-center justify-center">
         <div>
           <img
             alt="avatar"
@@ -17,7 +17,7 @@ export default function App() {
             London, United Kingdom
           </h2>
         </div>
-        <p className="mt-6 text-white text-sm font-medium">
+        <p className="mt-6 text-white text-center text-sm font-medium">
           "Front-end developer and avid reader."
         </p>
         <div className="mt-6 w-full flex flex-col gap-4">
